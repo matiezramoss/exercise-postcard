@@ -1,0 +1,98 @@
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 30rem;
+    height: fit-content;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: none !important;
+}
+
+.contenedor-header img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.contenedor-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+p {
+    margin: 0%;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+
+}
+
+.parrafos {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+input {
+    padding-left: 0px;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #ccc;
+}
+
+input::placeholder {
+    color: #999;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5px;
+    color: gray;
+    pointer-events: none;
+
+}
+
+button {
+    font-weight: bolder;
+    font-family: 'Gloria Hallelujah', cursive;
+    border: none;
+    background-color: #d3d3d3;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    border: none;
+    background-color: #d3d3d3;
+    border-top: 1px solid rgba(0, 0, 0, 0.66);
+    cursor: pointer;
+}
